@@ -4,11 +4,11 @@ Final class project: trained SMS spam classifier delivered as a scikit‑learn P
 
 ## Overview
 
-- Preprocess dataset (normalize labels, remove duplicates/nulls).
-- Train multiple TF‑IDF + classifier pipelines.
-- Select best model by F1 score on test data.
-- Export model, metadata, and comparison metrics.
-- Provide a simple web interface for message checking.
+- Preprocessing dataset (normalize labels, remove duplicates/nulls).
+- Training multiple TF‑IDF + classifier pipelines.
+- Selecting best model by F1 score on test data.
+- Exporting model, metadata, and comparison metrics.
+- Providing a simple web interface for message checking.
 
 ## Workflow
 
@@ -20,7 +20,7 @@ Final class project: trained SMS spam classifier delivered as a scikit‑learn P
 Install dependencies:
 
 ```powershell
-py -m pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Train:
