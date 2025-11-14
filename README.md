@@ -23,7 +23,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Train:
+Train by executing all cells:
 
 ```powershell
 jupyter nbconvert --to notebook --execute spam_detection.ipynb
